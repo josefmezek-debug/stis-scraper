@@ -1,0 +1,11 @@
+{
+  "name": "stis-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "scrape": "node stis_scrape.js \"https://stis.ping-pong.cz/tabulka/svaz-420211/rocnik-2025/soutez-6198\""
+  },
+  "dependencies": {
+    "puppeteer": "^22.10.0"
+  }
+}
